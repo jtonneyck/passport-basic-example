@@ -1,0 +1,9 @@
+<ul>
+    {{#if user }}
+        <p>hi {{user.username}}</p>
+        <li><a href="/logout">logout</a></li>
+    {{else}}
+        <li><a href="/signup">Sign up</a></li>
+        <li><a href="/login">Login</a></li>
+    {{/if}}
+</ul>
